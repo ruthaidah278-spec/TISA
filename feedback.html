@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TISA — Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="tisa.html">
+      <img src="tisa_icon_square.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      TISA
+    </a>
+    <div class="nav-links">
+      <a href="tisa.html">HOME</a>
+      <a href="tisa.html#about">ABOUT</a>
+      <a href="tisa.html#gallery">GALLERY</a>
+      <a href="tisa.html#join">JOIN US</a>
+    </div>
+  </nav>
+  <div class="feedback-intro">
+    <h1>We'd love to hear from you</h1>
+    <p>Your thoughts help us build a better TISA — tell us what's working, what's not, or what you'd like to see next.</p>
+  </div>
+
+
+  <section class="feedback" id="feedback">
+    <div class="wrap">
+      <div class="feedback-card">
+        <h3>Feedback</h3>
+        <h2>Send your Feedback</h2>
+
+        <form class="feedback-form" action="mailto:tisa.uict@hotmail.com" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Comment</label>
+            <textarea name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-bottom">
+      <span>© 2026 TISA — Uganda Institute of Information and Communications Technology</span>
+      <a href="tisa.html">Back to Home</a>
+    </div>
+  </footer>
+
+</body>
+</html>
